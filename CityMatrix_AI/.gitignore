@@ -1,0 +1,20 @@
+
+
+*.pyc
+*.p
+! *credentials.p # Need this file for SMTP server setup
+*.pkl
+*.h5
+neural_predictions/
+no_wandering_neural_predictions/
+no_wandering_linear_predictions/
+bounds/
+normalized_outputs*/
+*.log
+input_cities/
+output_cities/
+predicted_cities/
+sim_output/
+xml/
+runs/
+.ipynb_checkpoints/
