@@ -36,6 +36,6 @@ Zhang, Yan. “CityMatrix – An Urban Decision Support System Augmented by Arti
 
 
 ## Credits
-Advisor: Kent Larson
-Contributors of CityMatrix: 'Ryan' Yan Zhang, Alex Aubuchon, Kevin Lyons
-[Contributors of this repo](https://github.com/CityScope/CS_AI_Python/graphs/contributors)
+Advisor: Kent Larson  
+Contributors of CityMatrix: 'Ryan' Yan Zhang, Alex Aubuchon, Kevin Lyons  
+[Contributors of this repo](https://github.com/CityScope/CS_AI_Python/graphs/contributors)  
