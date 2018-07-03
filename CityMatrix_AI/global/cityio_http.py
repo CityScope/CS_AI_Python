@@ -45,12 +45,14 @@ class City_HTTP():
             self.write_dict(curr_text)
             self.prev_text = curr_text
             self.prev_json = curr_json
-            log.info("[City_HTTP] New data")
+            log.info("[City_HTTP] <GET> New data")
             return City(curr_text)
 
     def post_table(self, data):
-        log.info(json.dumps(data))
-        r = requests.post(url = self.URL_post, json = data)
+        # log.info(json.dumps(data))
+        obj_wrap = {"objects": data}
+        r = requests.post(url = self.URL_post, json = obj_wrap)
+        log.info("[City_HTTP] <POST> Prediction sent to CityIO")
         log.info(r)
         # Check if r is a valid response
         try:
