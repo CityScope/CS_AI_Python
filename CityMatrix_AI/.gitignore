@@ -12,6 +12,7 @@ bounds/
 normalized_outputs*/
 *.log
 input_cities/
+input_table/
 output_cities/
 predicted_cities/
 sim_output/
