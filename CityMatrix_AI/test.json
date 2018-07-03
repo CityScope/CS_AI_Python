@@ -1,0 +1,6272 @@
+{
+    "predict": {
+        "objects": {
+            "AIMov": [
+                "CELL",
+                0,
+                0,
+                0
+            ],
+            "AIStep": 24,
+            "AIWeights": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "IDMax": 15,
+            "animBlink": 1,
+            "densities": [
+                14,
+                14,
+                14,
+                14,
+                14,
+                14
+            ],
+            "dockID": -1,
+            "dockRotation": 0,
+            "metrics": {
+                "Density": {
+                    "weight": 0,
+                    "metric": 0.36904
+                },
+                "Diversity": {
+                    "weight": 0,
+                    "metric": 0.8355006266011791
+                },
+                "Energy": {
+                    "weight": 0,
+                    "metric": 0.325
+                },
+                "Traffic": {
+                    "weight": 0,
+                    "metric": 0.6325872413793103
+                },
+                "Solar": {
+                    "weight": 0,
+                    "metric": 0.6348818930041162
+                }
+            },
+            "pop_mid": 0,
+            "pop_old": 0,
+            "pop_young": 0,
+            "score": 0.0,
+            "slider1": 0.5,
+            "slider2": 0.809524,
+            "startFlag": 0,
+            "toggle1": 1,
+            "population": 11200
+        },
+        "grid": [
+            {
+                "type": -1,
+                "x": 0,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1378.85,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.38,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1376.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.25,
+                    "traffic": 69.69,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.81,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.35,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.03,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1368.43,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1368.25,
+                    "traffic": 69.12,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1368.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.98,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.21,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.09,
+                    "traffic": 69.43,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1375.97,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.79,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.19,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.71,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1364.41,
+                    "traffic": 210.4,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.25,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1349.05,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1346.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1346.3,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.63,
+                    "traffic": 206.97,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1348.41,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.12,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1356.72,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1363.69,
+                    "traffic": 207.35,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.63,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1375.07,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1376.01,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.89,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.55,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1338.64,
+                    "traffic": 277.45,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1303.52,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1277.27,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1273.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1283.12,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1294.78,
+                    "traffic": 275.02,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1285.35,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1274.5,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1280.11,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1305.29,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1337.9,
+                    "traffic": 273.63,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1361.55,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1371.53,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 0,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.52,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 1,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1366.46,
+                    "traffic": 69.66,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 2,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1343.8,
+                    "traffic": 208.84,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1263.92,
+                    "traffic": 1137.6,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 4,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1021.11,
+                    "traffic": 1470.07,
+                    "wait": 904.95
+                }
+            },
+            {
+                "type": 6,
+                "x": 5,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 967.83,
+                    "traffic": 1366.58,
+                    "wait": 1174.36
+                }
+            },
+            {
+                "type": 6,
+                "x": 6,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 964.17,
+                    "traffic": 1698.48,
+                    "wait": 1606.56
+                }
+            },
+            {
+                "type": 6,
+                "x": 7,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 999.11,
+                    "traffic": 1830.88,
+                    "wait": 634.04
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1148.62,
+                    "traffic": 2589.68,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 9,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 991.91,
+                    "traffic": 1779.94,
+                    "wait": 405.28
+                }
+            },
+            {
+                "type": 6,
+                "x": 10,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 962.32,
+                    "traffic": 1630.47,
+                    "wait": 981.41
+                }
+            },
+            {
+                "type": 6,
+                "x": 11,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 966.99,
+                    "traffic": 1211.35,
+                    "wait": 1132.16
+                }
+            },
+            {
+                "type": 6,
+                "x": 12,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1027.14,
+                    "traffic": 1234.63,
+                    "wait": 297.53
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1274.23,
+                    "traffic": 1036.58,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 14,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1348.65,
+                    "traffic": 275.37,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 15,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1368.24,
+                    "traffic": 207.19,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.09,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.06,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1321.97,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1191.03,
+                    "traffic": 1597.63,
+                    "wait": 874.33
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.33,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 5,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.48,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 6,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1345.11,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1337.93,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 952.22,
+                    "traffic": 3164.38,
+                    "wait": 998.61
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1339.72,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 10,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1349.98,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 11,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1353.09,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1353.34,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1195.98,
+                    "traffic": 1249.02,
+                    "wait": 319.53
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1328.13,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.19,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.39,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.88,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1321.46,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1193.47,
+                    "traffic": 1556.42,
+                    "wait": 1961.62
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.5,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1019.53,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1016.03,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1344.71,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 945.01,
+                    "traffic": 2931.07,
+                    "wait": 2797.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1346.11,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1026.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1022.65,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.78,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1199.65,
+                    "traffic": 1217.44,
+                    "wait": 918.17
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1325.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.48,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.47,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1358.21,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1324.06,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1195.78,
+                    "traffic": 2103.53,
+                    "wait": 1753.91
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1354.46,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 793.2,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 796.56,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1341.87,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 948.86,
+                    "traffic": 4032.03,
+                    "wait": 2320.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1344.69,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 794.21,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 796.91,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1356.22,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1201.35,
+                    "traffic": 1678.57,
+                    "wait": 1247.12
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1327.83,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.34,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.84,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.31,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1331.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1221.81,
+                    "traffic": 2230.34,
+                    "wait": 813.48
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1358.52,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 5,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1342.32,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 6,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1339.76,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1346.13,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1006.76,
+                    "traffic": 3941.33,
+                    "wait": 1051.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1346.05,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 10,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1338.03,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 11,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1340.16,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.52,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1222.04,
+                    "traffic": 1818.12,
+                    "wait": 517.56
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1333.26,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.19,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 0,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.54,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 1,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1363.39,
+                    "traffic": 69.39,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 2,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1340.93,
+                    "traffic": 208.01,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1266.59,
+                    "traffic": 3562.91,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 4,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1037.3,
+                    "traffic": 4225.18,
+                    "wait": 3370.84
+                }
+            },
+            {
+                "type": 6,
+                "x": 5,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 973.92,
+                    "traffic": 3912.09,
+                    "wait": 4094.38
+                }
+            },
+            {
+                "type": 6,
+                "x": 6,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 966.53,
+                    "traffic": 4826.9,
+                    "wait": 3752.12
+                }
+            },
+            {
+                "type": 6,
+                "x": 7,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1001.89,
+                    "traffic": 4727.72,
+                    "wait": 1595.2
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1142.01,
+                    "traffic": 7856.7,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 9,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 997.6,
+                    "traffic": 4175.32,
+                    "wait": 1322.84
+                }
+            },
+            {
+                "type": 6,
+                "x": 10,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 967.8,
+                    "traffic": 4314.05,
+                    "wait": 3016.16
+                }
+            },
+            {
+                "type": 6,
+                "x": 11,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 975.17,
+                    "traffic": 3149.15,
+                    "wait": 3655.32
+                }
+            },
+            {
+                "type": 6,
+                "x": 12,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1045.39,
+                    "traffic": 3406.87,
+                    "wait": 1414.08
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1274.91,
+                    "traffic": 2741.59,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 14,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1343.56,
+                    "traffic": 275.01,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 15,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1364.16,
+                    "traffic": 206.76,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.8,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.65,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1323.85,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1195.07,
+                    "traffic": 3184.51,
+                    "wait": 2576.78
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1356.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 5,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1353.54,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 6,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1352.54,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1341.39,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 955.97,
+                    "traffic": 4354.02,
+                    "wait": 1891.53
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1342.79,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 10,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.02,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 11,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1353.56,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1356.28,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1201.8,
+                    "traffic": 1986.39,
+                    "wait": 899.89
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1329.0,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.6,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1373.05,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1361.17,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1324.64,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1196.45,
+                    "traffic": 2762.54,
+                    "wait": 5006.69
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1361.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1027.01,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1021.21,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.33,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 950.05,
+                    "traffic": 4336.53,
+                    "wait": 4250.31
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1348.2,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1025.7,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1020.73,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.95,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1203.43,
+                    "traffic": 1823.8,
+                    "wait": 1902.47
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1329.35,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.31,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.91,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1365.37,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1333.07,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1201.15,
+                    "traffic": 2162.09,
+                    "wait": 4909.66
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.02,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 797.5,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 800.74,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.99,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 964.73,
+                    "traffic": 3362.0,
+                    "wait": 4620.38
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1348.1,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 798.87,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 800.78,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.59,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1210.0,
+                    "traffic": 1412.12,
+                    "wait": 2131.62
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1336.33,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1366.24,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.07,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1371.74,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1354.4,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1255.31,
+                    "traffic": 2115.86,
+                    "wait": 2538.34
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1376.37,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 5,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1365.88,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 6,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1364.88,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.57,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1090.44,
+                    "traffic": 3595.41,
+                    "wait": 2013.58
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.92,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 10,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1364.48,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 11,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1366.22,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1376.35,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1259.02,
+                    "traffic": 1489.29,
+                    "wait": 820.5
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1354.3,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.01,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 0,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1379.91,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 1,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1379.3,
+                    "traffic": 69.67,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 2,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1380.21,
+                    "traffic": 209.21,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1389.96,
+                    "traffic": 1336.08,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 4,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1435.99,
+                    "traffic": 2050.79,
+                    "wait": 2538.34
+                }
+            },
+            {
+                "type": 6,
+                "x": 5,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1440.55,
+                    "traffic": 1995.0,
+                    "wait": 2623.56
+                }
+            },
+            {
+                "type": 6,
+                "x": 6,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1438.89,
+                    "traffic": 2406.65,
+                    "wait": 2740.09
+                }
+            },
+            {
+                "type": 6,
+                "x": 7,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1431.29,
+                    "traffic": 2606.62,
+                    "wait": 1148.66
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1391.4,
+                    "traffic": 3198.32,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 9,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1431.5,
+                    "traffic": 2219.7,
+                    "wait": 865.27
+                }
+            },
+            {
+                "type": 6,
+                "x": 10,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1439.24,
+                    "traffic": 2070.6,
+                    "wait": 1841.29
+                }
+            },
+            {
+                "type": 6,
+                "x": 11,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1440.31,
+                    "traffic": 1560.56,
+                    "wait": 2142.52
+                }
+            },
+            {
+                "type": 6,
+                "x": 12,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1434.38,
+                    "traffic": 1582.82,
+                    "wait": 809.52
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.48,
+                    "traffic": 1139.17,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 14,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1378.66,
+                    "traffic": 275.89,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 15,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1378.97,
+                    "traffic": 208.66,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.13,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.05,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.65,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.24,
+                    "traffic": 208.89,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1395.67,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.24,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.54,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1396.86,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1392.71,
+                    "traffic": 208.17,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1396.63,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.3,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.07,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1395.06,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.73,
+                    "traffic": 206.86,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.46,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1381.97,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.23,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.86,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.75,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1385.28,
+                    "traffic": 69.86,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.32,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.76,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1389.19,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.72,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.25,
+                    "traffic": 69.08,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.79,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.86,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.89,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.42,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1384.88,
+                    "traffic": 68.75,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.6,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.54,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            }
+        ]
+    },
+    "ai": {
+        "objects": {
+            "AIMov": [
+                "CELL",
+                6,
+                5,
+                2
+            ],
+            "AIStep": 24,
+            "AIWeights": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "IDMax": 15,
+            "animBlink": 1,
+            "densities": [
+                14,
+                14,
+                14,
+                14,
+                14,
+                14
+            ],
+            "dockID": -1,
+            "dockRotation": 0,
+            "metrics": {
+                "Density": {
+                    "weight": 0,
+                    "metric": 0.37786
+                },
+                "Diversity": {
+                    "weight": 0,
+                    "metric": 0.8474822150241478
+                },
+                "Energy": {
+                    "weight": 0,
+                    "metric": 0.33229166666666665
+                },
+                "Traffic": {
+                    "weight": 0,
+                    "metric": 0.6285753448275863
+                },
+                "Solar": {
+                    "weight": 0,
+                    "metric": 0.628418106995886
+                }
+            },
+            "pop_mid": 0,
+            "pop_old": 0,
+            "pop_young": 0,
+            "score": 0.0,
+            "slider1": 0.5,
+            "slider2": 0.809524,
+            "startFlag": 0,
+            "toggle1": 1,
+            "population": 11424
+        },
+        "grid": [
+            {
+                "type": -1,
+                "x": 0,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1378.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.25,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1375.76,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1373.47,
+                    "traffic": 70.02,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.37,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.44,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1368.55,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1367.38,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1367.08,
+                    "traffic": 69.6,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1367.92,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1369.16,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.26,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1373.86,
+                    "traffic": 69.74,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1375.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 0,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.6,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1376.81,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.67,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1368.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1363.22,
+                    "traffic": 211.28,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1355.85,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.89,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1345.57,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1344.72,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1345.9,
+                    "traffic": 208.24,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.66,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1347.0,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.08,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1356.53,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1363.72,
+                    "traffic": 208.39,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.61,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 1,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1375.05,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1375.7,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.7,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1358.82,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1337.31,
+                    "traffic": 278.58,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1301.18,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1273.58,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1267.87,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1278.67,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1292.1,
+                    "traffic": 276.32,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1283.27,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1273.56,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1279.38,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1305.32,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1338.01,
+                    "traffic": 275.11,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1361.55,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 2,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1371.26,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 0,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 1,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1366.22,
+                    "traffic": 69.85,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 2,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1343.41,
+                    "traffic": 209.57,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1263.16,
+                    "traffic": 1143.5,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 4,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1018.57,
+                    "traffic": 1481.01,
+                    "wait": 930.98
+                }
+            },
+            {
+                "type": 6,
+                "x": 5,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 962.53,
+                    "traffic": 1374.12,
+                    "wait": 1213.36
+                }
+            },
+            {
+                "type": 6,
+                "x": 6,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 951.46,
+                    "traffic": 1708.98,
+                    "wait": 1658.19
+                }
+            },
+            {
+                "type": 6,
+                "x": 7,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 993.53,
+                    "traffic": 1840.5,
+                    "wait": 660.73
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1145.07,
+                    "traffic": 2639.55,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 9,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 989.68,
+                    "traffic": 1868.31,
+                    "wait": 430.66
+                }
+            },
+            {
+                "type": 6,
+                "x": 10,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 961.36,
+                    "traffic": 1687.78,
+                    "wait": 1673.54
+                }
+            },
+            {
+                "type": 6,
+                "x": 11,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 966.11,
+                    "traffic": 1232.02,
+                    "wait": 1197.34
+                }
+            },
+            {
+                "type": 6,
+                "x": 12,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1025.95,
+                    "traffic": 1258.37,
+                    "wait": 322.19
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1273.59,
+                    "traffic": 1050.8,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 14,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1348.38,
+                    "traffic": 276.54,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 15,
+                "y": 3,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1367.57,
+                    "traffic": 208.14,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.13,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1358.82,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1321.24,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1189.9,
+                    "traffic": 1602.83,
+                    "wait": 901.45
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1345.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 5,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1321.57,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 6,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1222.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1311.08,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 945.14,
+                    "traffic": 3231.75,
+                    "wait": 1045.86
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1332.47,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 10,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.12,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 11,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.66,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1349.2,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1194.24,
+                    "traffic": 1264.77,
+                    "wait": 347.41
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1327.63,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 4,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1361.82,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.09,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.43,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1320.56,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1192.25,
+                    "traffic": 1558.17,
+                    "wait": 2025.5
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.19,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 956.81,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 6,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1414.53,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1283.6,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 933.86,
+                    "traffic": 3013.76,
+                    "wait": 3554.75
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1343.03,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1023.78,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1019.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1354.41,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1198.18,
+                    "traffic": 1227.06,
+                    "wait": 970.89
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1324.83,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 5,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.12,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.7,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1323.71,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1195.34,
+                    "traffic": 2099.27,
+                    "wait": 1815.3
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1352.2,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 795.07,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 805.45,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1336.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 945.61,
+                    "traffic": 4118.66,
+                    "wait": 2398.75
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1338.93,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 794.14,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 798.06,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1349.42,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1201.07,
+                    "traffic": 1683.71,
+                    "wait": 1296.12
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1327.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 6,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.34,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1370.56,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.7,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1331.29,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1221.52,
+                    "traffic": 2222.84,
+                    "wait": 823.77
+                }
+            },
+            {
+                "type": 0,
+                "x": 4,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1358.33,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 5,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1339.51,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 6,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1335.74,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 0,
+                "x": 7,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1344.36,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1004.92,
+                    "traffic": 4010.89,
+                    "wait": 1096.38
+                }
+            },
+            {
+                "type": 1,
+                "x": 9,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1342.46,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 10,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1331.75,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 1,
+                "x": 11,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1334.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 2,
+                "x": 12,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1355.47,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1222.08,
+                    "traffic": 1817.02,
+                    "wait": 531.12
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1332.73,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 7,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.11,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 0,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.07,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 1,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1363.35,
+                    "traffic": 69.66,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 2,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1340.3,
+                    "traffic": 208.75,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1265.78,
+                    "traffic": 3562.36,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 4,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1036.24,
+                    "traffic": 4221.68,
+                    "wait": 3401.47
+                }
+            },
+            {
+                "type": 6,
+                "x": 5,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 971.93,
+                    "traffic": 3911.88,
+                    "wait": 4206.38
+                }
+            },
+            {
+                "type": 6,
+                "x": 6,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 964.19,
+                    "traffic": 4826.46,
+                    "wait": 3879.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 7,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1000.43,
+                    "traffic": 4733.84,
+                    "wait": 1640.66
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1140.46,
+                    "traffic": 7896.52,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 9,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 996.42,
+                    "traffic": 4169.31,
+                    "wait": 1370.91
+                }
+            },
+            {
+                "type": 6,
+                "x": 10,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 966.51,
+                    "traffic": 4300.55,
+                    "wait": 3168.41
+                }
+            },
+            {
+                "type": 6,
+                "x": 11,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 974.15,
+                    "traffic": 3133.4,
+                    "wait": 3688.57
+                }
+            },
+            {
+                "type": 6,
+                "x": 12,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1044.28,
+                    "traffic": 3394.07,
+                    "wait": 1455.11
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1274.31,
+                    "traffic": 2742.79,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 14,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1343.35,
+                    "traffic": 276.1,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 15,
+                "y": 8,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1364.28,
+                    "traffic": 207.64,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.65,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.33,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1322.88,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1194.37,
+                    "traffic": 3187.54,
+                    "wait": 2592.97
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1349.32,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 5,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1350.93,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 6,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1346.96,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1335.08,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 953.88,
+                    "traffic": 4358.39,
+                    "wait": 1934.73
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1336.45,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 10,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1350.78,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 11,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1351.05,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1350.1,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1200.49,
+                    "traffic": 1984.2,
+                    "wait": 926.58
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1328.66,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 9,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.53,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1372.83,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.74,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1324.4,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1195.43,
+                    "traffic": 2765.05,
+                    "wait": 5052.56
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1355.6,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1020.27,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1017.65,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1341.53,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 948.07,
+                    "traffic": 4357.09,
+                    "wait": 4353.12
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1344.15,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1021.6,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1014.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1358.2,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1201.43,
+                    "traffic": 1825.55,
+                    "wait": 1920.84
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1329.04,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 10,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1362.16,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1374.9,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1365.36,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1332.61,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1199.8,
+                    "traffic": 2163.19,
+                    "wait": 4977.69
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1352.41,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 795.85,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 803.35,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1341.78,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 963.59,
+                    "traffic": 3366.05,
+                    "wait": 4721.88
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1340.63,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 798.96,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 801.29,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1350.5,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1208.84,
+                    "traffic": 1411.47,
+                    "wait": 2127.69
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1335.97,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 11,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1366.09,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1377.31,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1371.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1353.82,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1255.21,
+                    "traffic": 2114.11,
+                    "wait": 2561.09
+                }
+            },
+            {
+                "type": 3,
+                "x": 4,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1373.36,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 5,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.38,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 6,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1360.27,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 3,
+                "x": 7,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1367.35,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1089.45,
+                    "traffic": 3612.7,
+                    "wait": 2054.7
+                }
+            },
+            {
+                "type": 4,
+                "x": 9,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1366.86,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 10,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1357.75,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 4,
+                "x": 11,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1359.08,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 5,
+                "x": 12,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1373.99,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1258.72,
+                    "traffic": 1489.84,
+                    "wait": 839.97
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1354.22,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 12,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1371.8,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 0,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1379.82,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 1,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1379.11,
+                    "traffic": 69.76,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 2,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1380.19,
+                    "traffic": 209.7,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1390.25,
+                    "traffic": 1335.21,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 4,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1435.9,
+                    "traffic": 2047.94,
+                    "wait": 2564.59
+                }
+            },
+            {
+                "type": 6,
+                "x": 5,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1440.51,
+                    "traffic": 1995.44,
+                    "wait": 2711.06
+                }
+            },
+            {
+                "type": 6,
+                "x": 6,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1439.03,
+                    "traffic": 2406.65,
+                    "wait": 2777.94
+                }
+            },
+            {
+                "type": 6,
+                "x": 7,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1431.22,
+                    "traffic": 2606.62,
+                    "wait": 1161.79
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1391.42,
+                    "traffic": 3201.82,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 9,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1431.4,
+                    "traffic": 2224.62,
+                    "wait": 892.4
+                }
+            },
+            {
+                "type": 6,
+                "x": 10,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1439.3,
+                    "traffic": 2070.6,
+                    "wait": 1920.91
+                }
+            },
+            {
+                "type": 6,
+                "x": 11,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1440.24,
+                    "traffic": 1559.69,
+                    "wait": 2240.52
+                }
+            },
+            {
+                "type": 6,
+                "x": 12,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1434.43,
+                    "traffic": 1579.54,
+                    "wait": 829.2
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.78,
+                    "traffic": 1139.71,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 14,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1378.45,
+                    "traffic": 277.44,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 15,
+                "y": 13,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1378.7,
+                    "traffic": 209.84,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1381.87,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.15,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.93,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.49,
+                    "traffic": 210.04,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1395.32,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.13,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.61,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1396.97,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1392.81,
+                    "traffic": 209.3,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1397.0,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1399.55,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1398.69,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1394.71,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.45,
+                    "traffic": 207.94,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.48,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 14,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1381.87,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 0,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.47,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 1,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.8,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 2,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.52,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 3,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1385.62,
+                    "traffic": 70.25,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 4,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.49,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 5,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.74,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 6,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1389.22,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 7,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.85,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 8,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.96,
+                    "traffic": 69.46,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 9,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.94,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 10,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1389.09,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 11,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1388.64,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 12,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1387.68,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": 6,
+                "x": 13,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1384.89,
+                    "traffic": 69.08,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 14,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1383.55,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            },
+            {
+                "type": -1,
+                "x": 15,
+                "y": 15,
+                "magnitude": 0,
+                "rot": 0,
+                "data": {
+                    "solar": 1382.43,
+                    "traffic": 0.0,
+                    "wait": 0.0
+                }
+            }
+        ]
+    }
+}

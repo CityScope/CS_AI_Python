@@ -9,6 +9,7 @@ import sys
 import os
 import json
 import logging
+import pathlib
 
 import numpy as np
 
@@ -228,6 +229,10 @@ class City(object):
         Args:
             timestamp (str): str UNIX timestamp value when we received this city
         """
+
+        # Create dir if it does not exist
+        pathlib.Path(config.INPUT_CITIES_DIRECTORY).mkdir(parents=True, exist_ok=True) 
+
         # Get filename
         filename = os.path.join(os.path.abspath(os.path.join(config.INPUT_CITIES_DIRECTORY,
                                                              'city_input_' + timestamp + ".json")))

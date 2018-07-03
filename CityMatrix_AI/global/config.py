@@ -23,6 +23,9 @@ UNITY_SERVER_NAME = 'UnityServer'
 UNITY_RECEIVE_PORT = 7009
 UNITY_SEND_PORT = 7003
 
+CITYIO_GET_TABLE = 'citymatrix'
+CITYIO_POST_TABLE = 'citymatrix_ai'
+
 # If we want to ignore diff feature and always predict for debugging purposes
 FORCE_PREDICTION = False
 AUTO_RESTART = not DEBUG  # Do we want to restart the server if it goes down?
@@ -51,6 +54,7 @@ LINEAR_MODEL_FILENAME = os.path.join(MODEL_DIR, 'linear_traffic_model.pkl')
 SOLAR_MODEL_FILENAME = os.path.join(MODEL_DIR, 'linear_solar_model.pkl')
 
 # Log variables
+INPUT_TABLE_DIRECTORY = '../CityPrediction/input_table/'
 # Directory to save incoming cities, before prediction
 INPUT_CITIES_DIRECTORY = '../CityPrediction/input_cities/'
 # Directory to save outgoing cities, after prediction
