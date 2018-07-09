@@ -101,7 +101,7 @@ Sample JSON:
 ```
 <br><br>
 ## 4. Output data format
-Below are the definitions of keys crucial to the output JSON; For those keys not defined in this list, check [**Section 5**](#5.-CityIO-Minimal-JSON-Format) for default CityIO format. 
+Below are the definitions of keys crucial to the output JSON; For those keys not defined in this list, check [**Section 5**](#5-cityio-minimal-json-format) for default CityIO format. 
 
 <a id="sample_json_output"></a>
 Sample JSON:
