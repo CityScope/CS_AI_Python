@@ -17,7 +17,7 @@ CityIO_AI will take over all the data processing jobs in the CityMatrix ecosyste
 Each module is highly specialized and optimized to do its own job. This design allows minimal data transmission in small packets to achieve low latency and smooth visualization
 <br><br>
 ## 3. Input data format
-Below are the definitions of keys crucial to the input JSON; For those keys not defined in this list, check [**Section 5**](#5.-CityIO-Minimal-JSON-Format) for default CityIO format. 
+Below are the definitions of keys crucial to the input JSON; For those keys not defined in this list, check [**Section 5**](#5-cityio-minimal-json-format) for default CityIO format. 
 
 + meta
 + header
