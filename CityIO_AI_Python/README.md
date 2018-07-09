@@ -29,7 +29,7 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
         <a id="rot_mapping"></a>
         + rot: rotation of each brick is stored as an `unsigned int` value; value stands for <u>counterclockwise rotation in degree</u>
         + Current version contains 2 objects: `"mapping":{"type":{"0":"RL",...},"rot":{"0":0,...}}` (see [Sample JSON](#sample_json_input) for detail)
-+ grid: `array` of `object`s, each object has the keys defined in the [block](#header_block) array; first object is for the top left corner of the table, which is (0,0); second is (1,0) so on so forth
++ grid: `array` of `object`s, each object has the keys defined in the [block](#header_block) array; data is order as a row by row basis starting from the top row: first object is for the top left corner of the table, which is (0,0); second is (1,0) so on so forth
     ```
      ⇢ x
     ⇣ |  0 |  1 |  2 |  3 |
@@ -80,7 +80,8 @@ Sample JSON:
     "grid":[
         {"type": -1, "rot":0},
         {"type": -1, "rot":0},
-        ...
+        {"type": -1, "rot":0},
+        {"type": -1, "rot":0}
     ],
     "objects":{
         "AIWeights":{
