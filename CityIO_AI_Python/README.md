@@ -111,7 +111,7 @@ Sample JSON:
 
 ```
 <br><br>
-## 5. CityIO Minimal JSON Format:
+## 5. CityIO Minimal JSON Format
 If an empty JSON is received by **CityIO**, it will be auto-completed and stored into *Input Table* as follow: 
 
     timestamp is auto appended to a new incoming JSON data by the CityIO server at the time it receives the data; thus the timestamp is not local time but server time
