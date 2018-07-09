@@ -6,13 +6,14 @@ Accepts incoming cities, runs ML + AI work, and provides output to Grasshopper.
 
 import sys
 import logging
-
+import time
 import atexit
 
 sys.path.extend(['../global/', '../CityPrediction/', '../CityMAItrix/'])
 import config
 from utils import *
 import city_udp
+import cityio_http
 import predictor as ML
 from strategies import random_single_moves as Strategy
 from objective import objective
@@ -23,10 +24,11 @@ if len(sys.argv) == 2:
     AUTO_RESTART = False
 
 # Create instances of our servers
-server = city_udp.City_UDP(
-    config.SERVER_NAME, receive_port=config.RECEIVE_PORT, send_port=config.SEND_PORT)
-unity_server = city_udp.City_UDP(
-    config.UNITY_SERVER_NAME, receive_port=config.UNITY_RECEIVE_PORT, send_port=config.UNITY_SEND_PORT)
+# server = city_udp.City_UDP(
+    # config.SERVER_NAME, receive_port=config.RECEIVE_PORT, send_port=config.SEND_PORT)
+# unity_server = city_udp.City_UDP(
+    # config.UNITY_SERVER_NAME, receive_port=config.UNITY_RECEIVE_PORT, send_port=config.UNITY_SEND_PORT)
+CityIO = cityio_http.City_HTTP()
 
 # Other instance vars
 log = logging.getLogger('__main__')
@@ -41,17 +43,18 @@ AI_move_queue = set()  # KL - keep track of previous moves that have been used
 def register():
     """Helper method to close all ports if server is stopped for some reason.
     """
-    server.close()
-    log.warning("Closing all ports for {}.".format(config.SERVER_NAME))
+    # server.close()
+    # log.warning("Closing all ports for {}.".format(config.SERVER_NAME))
 
 
-log.info("{} listening on ip: {}, port: {}. Waiting to receive new city...".format(
-    config.SERVER_NAME, config.RECEIVE_IP, config.RECEIVE_PORT))
+# log.info("{} listening on ip: {}, port: {}. Waiting to receive new city...".format(
+    # config.SERVER_NAME, config.RECEIVE_IP, config.RECEIVE_PORT))
 
 # Constantly loop and wait for new city packets to reach our UDP server
 while True:
     # Get city from server and note timestamp
-    input_city = server.receive_city()
+    # input_city = server.receive_city()
+    input_city = CityIO.get_table()
     timestamp = str(int(time.time()))
 
     # RZ 170614 alter animBlink after received a city from GH CV
@@ -78,6 +81,7 @@ while True:
         if previous_city is not None:
             # Check if this city is different from the previous one
             if not previous_city.equals(input_city):
+                log.info("[SERVER] Not same")
                 # New city received - write to local file for later use
                 input_city.write_to_file(timestamp)
 
@@ -116,13 +120,15 @@ while True:
                     result = {'predict': ml_city.to_dict(),
                               'ai': ai_city.to_dict()}
                 write_dict(result, timestamp)
-                server.send_data(result)
-                unity_server.send_data(result)
+                # server.send_data(result)
+                # unity_server.send_data(result)
+                CityIO.post_table(result)
 
                 log.info("New ml_city and ai_city data successfully sent to GH.\n")
                 log.info("Waiting to receive new city...")
 
             elif input_city.toggle1 != previous_city.toggle1:
+                log.info("[SERVER] New toggle")
                 # We have a change in toggle value - we need to send along a new prediction
                 # Do not write to file
                 # Run full ML/AI prediction
@@ -158,14 +164,16 @@ while True:
                     result = {'predict': ml_city.to_dict(),
                               'ai': ai_city.to_dict()}
                 write_dict(result, timestamp)
-                server.send_data(result)
-                unity_server.send_data(result)
+                # server.send_data(result)
+                # unity_server.send_data(result)
+                CityIO.post_table(result)
 
                 log.info(
                     "Same city received, but new toggle value. New ml_city and ai_city data successfully sent to GH.\n")
                 log.info("Waiting to receive new city...")
 
             else:
+                log.info("[SERVER] SAME")
                 # RZ 170626 same city received and not the first city, update
                 # meta data for GH UI, do not write to local file
 
@@ -188,8 +196,9 @@ while True:
                 else:
                     result = {'predict': ml_city.to_dict(),
                               'ai': ai_city.to_dict()}
-                server.send_data(result)
-                unity_server.send_data(result)
+                # server.send_data(result)
+                # unity_server.send_data(result)
+                CityIO.post_table(result)
 
                 # RZ 170614 print to check city to send
                 if PRINT_CITY_TO_SEND:
@@ -218,6 +227,7 @@ while True:
                     "Same city received. Still sent some metadata to GH. Waiting to receive new city...")
 
         else:
+            log.info("[SERVER] NO Previous City")
             # This is the first city
             # Write to local file for later use
             input_city.write_to_file(timestamp)
@@ -254,8 +264,10 @@ while True:
                 result = {'predict': ml_city.to_dict(),
                           'ai': ai_city.to_dict()}
             write_dict(result, timestamp)
-            server.send_data(result)
-            unity_server.send_data(result)
+            # server.send_data(result)
+            # unity_server.send_data(result)
+            CityIO.post_table(result)
 
             log.info("New ml_city and ai_city data successfully sent to GH.\n")
             log.info("Waiting to receive new city...")
+    time.sleep(0.5)

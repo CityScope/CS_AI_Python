@@ -12,6 +12,7 @@ import logging
 import subprocess
 import smtplib
 import base64
+import pathlib
 from email.mime.text import MIMEText
 
 import config
@@ -144,6 +145,10 @@ def write_dict(result_dict, timestamp):
         result_dict (dict): output from ML/AI work
         timestamp (str): -
     """
+
+    # Create dir if it does not exist
+    pathlib.Path(config.PREDICTED_CITIES_DIRECTORY).mkdir(parents=True, exist_ok=True)
+
     # Get filename
     filename = os.path.join(config.PREDICTED_CITIES_DIRECTORY,
                             'city_predictions_' + timestamp + '.json')
