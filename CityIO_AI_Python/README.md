@@ -31,8 +31,8 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
         + Current version contains 2 objects: `"mapping":{"type":{"0":"RL",...},"rot":{"0":0,...}}` (see [Sample JSON](#sample_json_input) for detail)
 + grid: `array` of `object`s, each object has the keys defined in the [block](#header_block) array; first object is for the top left corner of the table, which is (0,0); second is (1,0) so on so forth
     ```
-    ┏➔ x
-    ⬇ |  0 |  1 |  2 |  3 |
+     ⇢ x
+    ⇣ |  0 |  1 |  2 |  3 |
     y |  4 |  5 |  6 |  7 |
       |  8 |  9 | 10 | 11 |
       | 12 | 13 | 14 | 15 |
@@ -112,11 +112,13 @@ Sample JSON:
 <br><br>
 ## 5. CityIO Minimal JSON Format:
 If an empty JSON is received by **CityIO**, it will be auto-completed and stored into *Input Table* as follow: 
+
+    timestamp is auto appended to a new incoming JSON data by the CityIO server at the time it receives the data; thus the timestamp is not local time but server time
 ``` json
 {
     "meta":{
         "id": "",
-        "timestamp": 1530306513043,  //Server timestamp
+        "timestamp": 1530306513043,
         "apiv": ""
     },
     "header":{
