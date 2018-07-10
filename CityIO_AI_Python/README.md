@@ -66,7 +66,7 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
 {
     "meta":{},
     "header":{
-        "name":,
+        "name":"",
         "spatial":{},
         "owner":{},
         "block":["type","rot"],
@@ -86,7 +86,7 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
                 "0":0,
                 "1":90,
                 "2":180,
-                "3":270,
+                "3":270
             }
         }
     },
@@ -145,7 +145,7 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
 {
     "meta":{},
     "header":{
-        "name":,
+        "name":"",
         "spatial":{},
         "owner":{},
         "block":["type","rot","data"],
@@ -165,7 +165,7 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
                 "0":0,
                 "1":90,
                 "2":180,
-                "3":270,
+                "3":270
             }
         }
     },
