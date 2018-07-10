@@ -7,7 +7,8 @@ Current version: 1.0 (07/05/2018)
  The long term plan for CityMatrix is to have a modularized design which separates the whole project into four different modules: input, output, data processing, and data storage. To achieve reliability, performance, and modularity of CityMatrix, we redesigned CityMatrix_AI to adapt the overall roadmap. 
 <br><br>
 ## 2. Structure
-CityIO_AI will take over all the data processing jobs in the CityMatrix ecosystem. <br><br>
+CityIO_AI will take over all the data processing jobs in the CityMatrix ecosystem
+<br><br>
 ![CityMatrix Flowchart](flowchart.svg "CityMatrix Flowchart")
 >1. **Input Module** will only gather raw input data and store it into the *Input Table* of **CityIO**<br>
 >2. **CityIO_AI** monitors the *Input Table* of CityIO and will start the computing process whenever it gets new data from *Input Table*<br>
@@ -15,6 +16,12 @@ CityIO_AI will take over all the data processing jobs in the CityMatrix ecosyste
 >4. **Output Module** monitors the *Output Table* of **CityIO** to display the latest calculation result
 
 Each module is highly specialized and optimized to do its own job. This design allows minimal data transmission in small packets to achieve low latency and smooth visualization
+
+### CityIO Table Naming Convention
+Input table endpoint: `.../table/update/{proj_name}_in`<br>
+Output table endpoint: `.../table/{proj_name}_out`<br>
+>E.g.: For a project called **CityMatrix**, input data should be posted to https://cityio.media.mit.edu/api/table/update/CityMatrix_in and output result can be got from https://cityio.media.mit.edu/api/table/CityMatrix_out<br>
+>(Endpoint path in this example is updated for CityIO version 2.1, you can always find the latest CityIO API endpoints [here](https://github.com/CityScope/CS_CityIO_Backend/wiki/API))
 <br><br>
 ## 3. Input data format
 Below are the definitions of keys crucial to the input JSON; For those keys not defined in this list, check [**Section 5**](#5-cityio-minimal-json-format) for default CityIO format. 
