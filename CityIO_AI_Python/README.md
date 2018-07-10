@@ -21,7 +21,9 @@ Each module is highly specialized and optimized to do its own job. This design a
 Input table endpoint: `.../table/update/{proj_name}_in`<br>
 Output table endpoint: `.../table/{proj_name}_out`<br>
 >E.g.: For a project called **CityMatrix**, input data should be posted to https://cityio.media.mit.edu/api/table/update/CityMatrix_in and output result can be got from https://cityio.media.mit.edu/api/table/CityMatrix_out<br>
->(Endpoint path in this example is updated for CityIO version 2.1, you can always find the latest CityIO API endpoints [here](https://github.com/CityScope/CS_CityIO_Backend/wiki/API))
+>(Endpoint path in this example is updated for CityIO version 2.1)
+
+You can always find the latest CityIO API endpoints [here](https://github.com/CityScope/CS_CityIO_Backend/wiki/API)
 <br><br>
 ## 3. Input data format
 Below are the definitions of keys crucial to the input JSON; For those keys not defined in this list, check [**Section 5**](#5-cityio-minimal-json-format) for default CityIO format. 
