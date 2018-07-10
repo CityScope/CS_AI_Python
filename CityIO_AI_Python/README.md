@@ -28,17 +28,17 @@ You can always find the latest CityIO API endpoints [here](https://github.com/Ci
 ## 3. Input data format
 Below are the definitions of keys crucial to the input JSON; For those keys not defined in this list, check [**Section 5**](#5-cityio-minimal-json-format) for default CityIO format. 
 
-+ meta
-+ header
++ **meta**
++ **header**
     <a id="header_block"></a>
-    + block: `array` of `string`s, define the data contained in each grid
+    + **block**: `array` of `string`s, define the data contained in each grid
         + Current version contains 2 values: `"block":["type", "rot"]`
-    + mapping: `object` of `object`s, mapping of the values of each data defined in the `block` array
-        + type: each optical tag can be decoded into an `int` value; this object explains type of the cell each value stands for
+    + **mapping**: `object` of `object`s, mapping of the values of each data defined in the `block` array
+        + **type**: each optical tag can be decoded into an `int` value; this object explains type of the cell each value stands for
         <a id="rot_mapping"></a>
-        + rot: rotation of each brick is stored as an `unsigned int` value; value stands for <u>counterclockwise rotation in degree</u>
+        + **rot**: rotation of each brick is stored as an `unsigned int` value; value stands for <u>counterclockwise rotation in degree</u>
         + Current version contains 2 objects: `"mapping":{"type":{"0":"RL",...},"rot":{"0":0,...}}` (see [Sample JSON](#sample_json_input) for detail)
-+ grid: `array` of `object`s, each object has the keys defined in the [block](#header_block) array; data is order as a row by row basis starting from the top row: first object is for the top left corner of the table, which is (0,0); second is (1,0) so on so forth
++ **grid**: `array` of `object`s, each object has the keys defined in the [block](#header_block) array; data is order as a row by row basis starting from the top row: first object is for the top left corner of the table, which is (0,0); second is (1,0) so on so forth
     ```
      ⇢ x
     ⇣ |  0 |  1 |  2 |  3 |
@@ -46,17 +46,16 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
       |  8 |  9 | 10 | 11 |
       | 12 | 13 | 14 | 15 |
     ```
-+ objects
-    + AIWeights: an object includes all the urban performances, values are `float` values between `0.0` and `1.0`
-    + dockID: an `int` value, indicates the optical tag ID of the current dock block
-    + dockRot: an `unsigned int` value between `0` and `3`, indicates the counterclockwise rotation of the dock block (rotation mapping defined [here](#rot_mapping))
-    + density: a `float` value between `0.0` and `1.0`, indicates the input value from density slider
-    + heatmap: a `float` value between `0.0` and `1.0`, indicates the input value from heatmap slider
-    + toggle: a `bool` value, indicates the status of the toggle slider
++ **objects**
+    + **AIWeights**: an object includes all the urban performances, values are `float` values between `0.0` and `1.0`
+    + **dockID**: an `int` value, indicates the optical tag ID of the current dock block
+    + **dockRot**: an `unsigned int` value between `0` and `3`, indicates the counterclockwise rotation of the dock block (rotation mapping defined [here](#rot_mapping))
+    + **density**: a `float` value between `0.0` and `1.0`, indicates the input value from density slider
+    + **heatmap**: a `float` value between `0.0` and `1.0`, indicates the input value from heatmap slider
+    + **toggle**: a `bool` value, indicates the status of the toggle slider
 
-<a id="sample_json_input"></a>
-Sample JSON:
-<br>
+<br><a id="sample_json_input"></a>
+### Sample JSON:
 &emsp;*Minimal requirement of data format V1.0*
 ```json
 {
@@ -112,9 +111,8 @@ Sample JSON:
 ## 4. Output data format
 Below are the definitions of keys crucial to the output JSON; For those keys not defined in this list, check [**Section 5**](#5-cityio-minimal-json-format) for default CityIO format. 
 
-<a id="sample_json_output"></a>
-Sample JSON:
-<br>
+<br><a id="sample_json_input"></a>
+### Sample JSON:
 &emsp;*Minimal requirement of data format V1.0*
 ```json
 
