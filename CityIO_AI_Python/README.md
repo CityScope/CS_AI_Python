@@ -59,7 +59,7 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
     + **toggle**: a `bool` value, indicates the status of the toggle slider
     + **timestamp**: a `long` value, indicates the send time of this JSON from the input module, also the latest input data update time (unix time in milliseconds)
 
-<br><a id="sample_json_input"></a>
+<a id="sample_json_input"></a>
 ### Sample JSON:
 &emsp;*Minimal requirement of data format V1.0*
 ```json
@@ -138,7 +138,7 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
     + **tutorialStep**: an `int` value, indicates the current step of tutorial
     + **timestamp**: a `long` value, indicates the send time of this JSON from **CityIO_AI**, also the latest output data update time (unix time in milliseconds)
 
-<br><a id="sample_json_input"></a>
+<a id="sample_json_input"></a>
 ### Sample JSON:
 &emsp;*Minimal requirement of data format V1.0*
 ```json
