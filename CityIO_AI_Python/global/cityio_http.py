@@ -51,7 +51,11 @@ class City_HTTP():
     def post_table(self, data):
         # log.info(json.dumps(data))
         obj_wrap = {"objects": data}
-        r = requests.post(url = self.URL_post, json = obj_wrap)
+        with open("../jsonExamples/fake_output.json", 'r') as f:
+            fake_output = json.load(f)
+        fake_url = "https://cityio.media.mit.edu/api/table/update/cityiotest_out"
+        # r = requests.post(url = self.URL_post, json = obj_wrap)
+        r = requests.post(url = fake_url, json = fake_output)
         log.info("[City_HTTP] <POST> Prediction sent to CityIO")
         log.info(r)
         # Check if r is a valid response

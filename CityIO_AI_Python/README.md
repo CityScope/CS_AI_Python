@@ -57,7 +57,7 @@ Below are the definitions of keys crucial to the input JSON; For those keys not 
     + **density**: a `float` value between `0.0` and `1.0`, indicates the input value from density slider
     + **heatmap**: a `float` value between `0.0` and `1.0`, indicates the input value from heatmap slider
     + **toggle**: a `bool` value, indicates the status of the toggle slider
-    + **timestamp**: a `long` value, indicates the send time of this JSON from the input module, also the latest input data update time (unix time in milliseconds)
+    + **timestamp**: a `long` value, indicates the send time of this JSON from the input module, also the latest input data update time (UTC unix time in milliseconds)
 
 <a id="sample_json_input"></a>
 ### Sample JSON:
@@ -136,9 +136,9 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
         + **x**: an `int` value
         + **y**: an `int` value
     + **tutorialStep**: an `int` value, indicates the current step of tutorial
-    + **timestamp**: a `long` value, indicates the send time of this JSON from **CityIO_AI**, also the latest output data update time (unix time in milliseconds)
+    + **timestamp**: a `long` value, indicates the send time of this JSON from **CityIO_AI**, also the latest output data update time (UTC unix time in milliseconds)
 
-<a id="sample_json_input"></a>
+<a id="sample_json_output"></a>
 ### Sample JSON:
 &emsp;*Minimal requirement of data format V1.0*
 ```json
@@ -207,7 +207,7 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
             "2":0,
             "3":0,
             "4":0,
-            "5":0,
+            "5":0
         },
         "AIMove":{
             "moveType":"cell",
@@ -227,7 +227,7 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
 
 If an empty JSON is received by **CityIO**, it will be auto-completed and stored into *Input Table* as follow: 
 
->timestamp is auto appended to a new incoming JSON data by the CityIO server at the time it receives the data; thus the timestamp is not local time but server time (unix time in milliseconds)
+>timestamp is auto appended to a new incoming JSON data by the CityIO server at the time it receives the data; thus the timestamp is not local time but server time (UTC unix time in milliseconds)
 ``` json
 {
     "meta":{
