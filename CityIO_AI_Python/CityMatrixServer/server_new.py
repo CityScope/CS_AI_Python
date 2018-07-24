@@ -33,8 +33,8 @@ while True:
                 previous_city = input_city
             # elif input_city.toggle1 != previous_city.toggle1:
             #     log.info("[SERVER] New toggle")
-            else:
-                log.info("[SERVER] SAME")
+            # else:
+            #     log.info("[SERVER] SAME")
         else:
             previous_city = input_city
             output_city = OutputCity(input_city)
