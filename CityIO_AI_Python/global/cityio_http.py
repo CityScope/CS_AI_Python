@@ -4,18 +4,20 @@ import sys
 import json
 import time
 import config
+import asyncio
 import logging
 import pathlib
 import requests
-from cityiograph import City
+from city_class import InputCity
 
 log = logging.getLogger('__main__')
 
 class City_HTTP():
 
-    def __init__(self):
-        self.URL_get = "https://cityio.media.mit.edu/api/table/" + config.CITYIO_GET_TABLE
-        self.URL_post = "https://cityio.media.mit.edu/api/table/update/" + config.CITYIO_POST_TABLE
+    def __init__(self, proj_name):
+        self.city = None
+        self.URL_get = "https://cityio.media.mit.edu/api/table/" + proj_name + "_in"
+        self.URL_post = "https://cityio.media.mit.edu/api/table/update/" + proj_name + "_out"
         self.PARAMS = {}
         self.HEADERS = {'Connection': 'close'}
         self.prev_text = ""
@@ -42,22 +44,33 @@ class City_HTTP():
         # Check if r is a new json
         if not self.equal_dicts(curr_json, self.prev_json, {'meta'}):
             # print (curr_text)
-            self.write_dict(curr_text)
+            asyncio.set_event_loop(asyncio.new_event_loop())
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(self.write_dict(curr_text))
+            loop.close()
+            # self.write_dict(curr_text)
             self.prev_text = curr_text
             self.prev_json = curr_json
             log.info("[City_HTTP] <GET> New data")
-            return City(curr_text)
+            if self.city is None:
+                self.city = InputCity(curr_text)
+            else:
+                self.city.json_update(curr_text)
+            return self.city
+        return self.city
 
     def post_table(self, data):
         # log.info(json.dumps(data))
-        obj_wrap = {"objects": data}
-        with open("../jsonExamples/fake_output.json", 'r') as f:
-            fake_output = json.load(f)
-        fake_url = "https://cityio.media.mit.edu/api/table/update/cityiotest_out"
+        json_obj = json.loads(data)
+        # obj_wrap = {"objects": data}
+        # with open("../jsonExamples/fake_output.json", 'r') as f:
+        #     fake_output = json.load(f)
+        # fake_url = "https://cityio.media.mit.edu/api/table/update/cityiotest_out"
+        r = requests.post(url = self.URL_post, json = json_obj)
         # r = requests.post(url = self.URL_post, json = obj_wrap)
-        r = requests.post(url = fake_url, json = fake_output)
+        # r = requests.post(url = fake_url, json = fake_output)
         log.info("[City_HTTP] <POST> Prediction sent to CityIO")
-        log.info(r)
+        # log.info(r)
         # Check if r is a valid response
         try:
             r.raise_for_status()
@@ -87,17 +100,16 @@ class City_HTTP():
         return True
 
     # https://stackoverflow.com/questions/273192/how-can-i-create-a-directory-if-it-does-not-exist
-    def write_dict(self, curr_text):
+    async def write_dict(self, curr_text):
         # Create dir if it does not exist
         pathlib.Path(config.INPUT_TABLE_DIRECTORY).mkdir(parents=True, exist_ok=True)
-
         # Get filename
         filename = os.path.join(config.INPUT_TABLE_DIRECTORY,
                                 'input_table_' + str(int(time.time())) + '.json')
-
         # Write dictionary
         with open(filename, 'w') as f:
             f.write(curr_text)
+        log.info("[City_HTTP] log file saved" + filename)
 
 # myobjectx = City_HTTP("citymatrix", 0.5)
 

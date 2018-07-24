@@ -216,7 +216,12 @@ Below are the definitions of keys crucial to the output JSON; For those keys not
             "x":0,
             "y":0
         },
+        "dockID":0,
+        "dockRot":0,
+        "heatmap":0.0,
+        "density":0.0,
         "tutorialStep":0,
+        "timestamp_in":1530763100000,
         "timestamp":1530763200000
     }
 }

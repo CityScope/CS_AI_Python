@@ -56,6 +56,7 @@ while True:
     # input_city = server.receive_city()
     input_city = CityIO.get_table()
     timestamp = str(int(time.time()))
+    print(input_city)
 
     # RZ 170614 alter animBlink after received a city from GH CV
     if animBlink == 0:

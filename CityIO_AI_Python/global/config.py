@@ -23,8 +23,7 @@ UNITY_SERVER_NAME = 'UnityServer'
 UNITY_RECEIVE_PORT = 7009
 UNITY_SEND_PORT = 7003
 
-CITYIO_GET_TABLE = 'citymatrix'
-CITYIO_POST_TABLE = 'citymatrix_ai'
+CITYIO_PROJ_NAME = 'UnityTest'
 
 # If we want to ignore diff feature and always predict for debugging purposes
 FORCE_PREDICTION = False
@@ -42,7 +41,7 @@ SERVER_FILENAME = '../CityMatrixServer/server.py'
 CITY_SIZE = 16
 ROAD_ID = 6  # ID of a road cell on our grid matrix
 # Array representing the number of people per floor in each building type
-POP_ARR = [5, 8, 16, 16, 23, 59]
+POP_ARR = [18, 28, 63, 52, 87, 156, 0]
 EDGE_COST = 1  # Used in graph creation'
 DENSITY_TO_HEIGHT_FACTOR = 3.5  # Used for solar radiation analysis
 
