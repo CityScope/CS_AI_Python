@@ -47,7 +47,8 @@ class InputCity(object):
         self.server_ts = self.json_obj['meta']['timestamp']
         self.cells = get_cells_from_json(self.nrows, self.ncols, self.json_obj['grid'])
         # Save densities
-        self.densities[self.dock_id] = self.density
+        if self.dock_id>=0 and self.dock_id<=5:
+            self.densities[self.dock_id] = self.density
     
     def equals(self, other):
         cells_equal = all([c.equals(other.cells[pos]) for pos, c in enumerate(self.cells)])
