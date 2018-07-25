@@ -54,6 +54,8 @@ class InputCity(object):
         return (cells_equal and 
                 self.densities == other.densities and 
                 self.dock_id == other.dock_id and 
+                self.heatmap == other.heatmap and 
+                self.toggle == other.toggle and 
                 self.ai_density == other.ai_density and 
                 self.ai_diversity == other.ai_diversity and 
                 self.ai_energy == other.ai_energy and 
