@@ -105,7 +105,7 @@ class City_HTTP():
         pathlib.Path(config.INPUT_TABLE_DIRECTORY).mkdir(parents=True, exist_ok=True)
         # Get filename
         filename = os.path.join(config.INPUT_TABLE_DIRECTORY,
-                                'input_table_' + str(int(time.time())) + '.json')
+                                'input_table_' + str(time.time()) + '.json')
         # Write dictionary
         with open(filename, 'w') as f:
             f.write(curr_text)
