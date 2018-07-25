@@ -49,6 +49,17 @@ class InputCity(object):
         # Save densities
         self.densities[self.dock_id] = self.density
     
+    def equals(self, other):
+        cells_equal = all([c.equals(other.cells[pos]) for pos, c in enumerate(self.cells)])
+        return (cells_equal and 
+                self.densities == other.densities and 
+                self.dock_id == other.dock_id and 
+                self.ai_density == other.ai_density and 
+                self.ai_diversity == other.ai_diversity and 
+                self.ai_energy == other.ai_energy and 
+                self.ai_solar == other.ai_solar and 
+                self.ai_traffic == other.ai_traffic)
+
     def get_population(self):
         # Assumption: each cell is 1 km^2
         pop = 0
@@ -236,6 +247,9 @@ class Cell(object):
         self._energy = 0.0
         self._traffic = 0.0
         self._solar = 0.0
+
+    def equals(self, other):
+        return self._type == other.get_type()
 
     def get_pos(self):
         return (self.x, self.y)
