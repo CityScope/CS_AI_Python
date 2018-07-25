@@ -31,6 +31,8 @@ def pop_density_perf(city):
 def LUM(populations):
     #print(populations)
     tot = sum(populations)
+    if tot == 0:
+        return 0
     probs = map(lambda x: (x / tot) * np.log10(x / tot) if x != 0 else 0, populations)
     return -sum(probs) / np.log10(len(populations))
 

@@ -109,7 +109,7 @@ class City_HTTP():
         # Write dictionary
         with open(filename, 'w') as f:
             f.write(curr_text)
-        log.info("[City_HTTP] log file saved" + filename)
+        # log.info("[City_HTTP] log file saved" + filename)
 
 # myobjectx = City_HTTP("citymatrix", 0.5)
 
