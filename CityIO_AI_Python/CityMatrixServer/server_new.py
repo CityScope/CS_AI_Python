@@ -73,9 +73,9 @@ while True:
                     old_input_city = copy.deepcopy(input_city)
                     old_output_city = output_city
             # else:
-            #     log.info("[SERVER] SAME")
-            #     log.info(id(old_input_city))
-            #     log.info(id(input_city))
+                # log.info("[SERVER] SAME")
+                # log.info(id(old_input_city))
+                # log.info(id(input_city))
         else:
             log.info("[SERVER] NO Previous City")
             output_city = ComputeOutputCity(input_city)

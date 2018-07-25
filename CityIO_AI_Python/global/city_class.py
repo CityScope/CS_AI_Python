@@ -53,7 +53,7 @@ class InputCity(object):
     def equals(self, other):
         cells_equal = all([c.equals(other.cells[pos]) for pos, c in enumerate(self.cells)])
         return (cells_equal and 
-                self.densities == other.densities and 
+                self.density == other.density and 
                 self.dock_id == other.dock_id and 
                 self.heatmap == other.heatmap and 
                 self.toggle == other.toggle and 
