@@ -27,15 +27,15 @@ while True:
     # timestamp = str(int(time.time()))
     # log.info(input_city)
     if input_city is not None:
-        if previous_city is not None:
-            if not previous_city == input_city:
-                log.info("[SERVER] Not same")
-                previous_city = input_city
+        # if previous_city is not None:
+            # if not previous_city == input_city:
+                # log.info("[SERVER] Not same")
+                # previous_city = input_city
             # elif input_city.toggle1 != previous_city.toggle1:
             #     log.info("[SERVER] New toggle")
             # else:
             #     log.info("[SERVER] SAME")
-        else:
+        # else:
             previous_city = input_city
             output_city = OutputCity(input_city)
             # Traffic/solar predictor
