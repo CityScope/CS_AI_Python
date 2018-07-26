@@ -282,10 +282,10 @@ class Cell(object):
         return self._solar
     
     def set_density(self, density):
-        self._density = normalize(density, 0, 390)
+        self._density = normalize(density, 18, 4680)
     
     def set_diversity(self, diversity):
-        self._diversity = normalize(diversity, 0.65, 1.0)
+        self._diversity = normalize(diversity, 0, 1.0)
 
     def set_energy(self, energy):
         self._energy = normalize(energy, -6000, 6000)
