@@ -175,7 +175,7 @@ class OutputCity(object):
                 temp_cell = self.cells[temp_x + temp_y * self.ncols]
                 cell_type = temp_cell.get_type()
                 if cell_type >=0 and cell_type <=5:
-                    temp_pop[cell_type] += self.densities[cell_type] * config.DENSITY_TO_HEIGHT_FACTOR
+                    temp_pop[cell_type] += self.densities[cell_type] * temp_cell.get_pplfloor()
         residential_diversity = LUM([temp_pop[0], temp_pop[1], temp_pop[2]])
         office_diversity = LUM([temp_pop[3], temp_pop[4], temp_pop[5]])
         living_working_diversity = LUM([temp_pop[0] + temp_pop[1] + temp_pop[2],
