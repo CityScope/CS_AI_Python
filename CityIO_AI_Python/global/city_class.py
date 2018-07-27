@@ -86,7 +86,7 @@ class InputCity(object):
             else:
                 cell_feature.append(1)
             features.append(cell_feature)
-
+        
         return np.array(features).flatten()
 
     def get_solar(self):
