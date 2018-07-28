@@ -1,8 +1,14 @@
 import sys
+import logging
+log = logging.getLogger('__main__')
+# INIT
+if len(sys.argv) < 2:
+    log.error("Proj name argv missing")
+    log.error("Usage: python server_new.py proj_name")
+    sys.exit(-1)
 import time
 import copy
 import atexit
-import logging
 sys.path.extend(['../global/', '../CityPrediction/', '../CityMAItrix/'])
 import config
 from utils import *
@@ -12,12 +18,6 @@ from strategies import strategies_new as Strategy
 from objective_new import objective
 from city_class import *
 
-log = logging.getLogger('__main__')
-# INIT
-if len(sys.argv) < 2:
-    log.error("Proj name argv missing")
-    log.error("Usage: python server_new.py proj_name")
-    sys.exit(-1)
 proj_name = sys.argv[1]
 old_input_city = None
 old_output_city = None
