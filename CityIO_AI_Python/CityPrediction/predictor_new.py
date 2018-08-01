@@ -9,9 +9,7 @@ Description:
 import sys
 import numpy as np
 np.set_printoptions(threshold=np.nan)
-sys.path.extend(['../global/'])
-from utils import *
-from cityiograph import get_features
+from CityUtil.utils import *
 
 log = logging.getLogger('__main__')
 traffic_model = pickle.load(open(config.LINEAR_MODEL_FILENAME, 'rb'))

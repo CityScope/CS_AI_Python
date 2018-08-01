@@ -3,12 +3,11 @@ import os
 import json
 import time
 import datetime
-import config
 import logging
 import pathlib
 import numpy as np
-sys.path.append('../CityMAItrix/')
-from objective import objective
+import CityUtil.config as config
+from CityMAItrix.objective_new import objective
 log = logging.getLogger('__main__')
 
 class InputCity(object):
@@ -92,12 +91,12 @@ class InputCity(object):
     def get_solar(self):
         features = []
         for cell in self.cells:
-            cell_feature = 0.0
+            cell_feature = []
             cell_type = cell.get_type()
             if cell_type >=0 and cell_type <=5:
-                cell_feature = self.densities[cell_type] * config.DENSITY_TO_HEIGHT_FACTOR
+                cell_feature.append(self.densities[cell_type] * config.DENSITY_TO_HEIGHT_FACTOR)
             else:
-                cell_feature = 0
+                cell_feature.append(0)
             features.append(cell_feature)
 
         return np.array(features).flatten()
@@ -291,7 +290,7 @@ class Cell(object):
         self._energy = normalize(energy, -6000, 6000)
 
     def set_traffic(self, traffic):
-        self._traffic = normalize(traffic, 1000, 3000)
+        self._traffic = normalize(traffic, 2000, 5000)
     
     def set_solar(self, solar):
         self._solar = normalize(solar, 1000, 1300)

@@ -59,7 +59,7 @@ INPUT_CITIES_DIRECTORY = '../CityPrediction/input_cities/'
 # Directory to save outgoing cities, after prediction
 PREDICTED_CITIES_DIRECTORY = '../CityPrediction/predicted_cities/'
 LOGGER_FILENAME = 'output.log'  # Log file
-
+SAVE_TABLES = False
 # Simulator variables
 DO_SIMULATE = False  # Bool to say if we run the GAMA simulator on the file or not
 SIM_NAME = 'PythonSim'  # Name of our simulator for ID purposes

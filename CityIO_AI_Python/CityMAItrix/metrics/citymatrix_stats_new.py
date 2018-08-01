@@ -68,7 +68,9 @@ def traffic_perf(city):
     traffics = []
     for cell in city.cells:
         if cell.get_type() == 6:
-            traffics.append(cell.get_traffic())
+            traffics.append(city.cells[cell.x+((cell.y+1)%16)*16].get_traffic())
+    print(len(traffics))
+    print(sum(traffics))
     if len(traffics) == 0:
         return 0
     else:

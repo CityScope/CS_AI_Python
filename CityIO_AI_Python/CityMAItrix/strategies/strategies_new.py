@@ -3,10 +3,8 @@ import logging
 import copy
 import random
 
-from objective_new import objective
-
-sys.path.extend(['../', '../../CityPrediction/'])
-from CityPrediction import predictor_new as ML
+from CityMAItrix.objective_new import objective
+import CityPrediction.predictor_new as ML
 
 log = logging.getLogger('__main__')
 density_change_chance = 0.25  # RZ equal chance: (6*30)/(256*6)=0.1172

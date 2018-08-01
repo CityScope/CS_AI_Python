@@ -1,4 +1,4 @@
-from metrics import citymatrix_stats_new as Metrics
+from CityMAItrix.metrics import citymatrix_stats_new as Metrics
 
 
 class ObjectiveFunction(object):

@@ -9,16 +9,21 @@ if len(sys.argv) < 2:
 import time
 import copy
 import atexit
-sys.path.extend(['../global/', '../CityPrediction/', '../CityMAItrix/'])
-import config
-from utils import *
-import cityio_http
-import predictor_new as ML
-from strategies import strategies_new as Strategy
-from objective_new import objective
-from city_class import *
+sys.path.extend(['..'])
+import CityUtil.config as config
+from CityUtil.cityio_http import *
+from CityUtil.utils import *
+from CityUtil.city_class import *
+import CityPrediction.predictor_new as ML
+import CityMAItrix.strategies.strategies_new as Strategy
+from CityMAItrix.objective_new import objective
 
 proj_name = sys.argv[1]
+if len(sys.argv)>=3:
+    if sys.argv[2] == "1":
+        config.SAVE_TABLES = True
+    elif sys.argv[2] == "0":
+        config.SAVE_TABLES = False
 old_input_city = None
 old_output_city = None
 
@@ -49,7 +54,7 @@ def UpdateOutputCity(old_output, new_input):
     new_output.input_ts = new_input.client_ts
     return new_output
 
-CityIO = cityio_http.City_HTTP(proj_name)
+CityIO = City_HTTP(proj_name)
 # WHILE LOOP
 while True:
     input_city = CityIO.get_table()

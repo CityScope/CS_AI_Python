@@ -3,12 +3,12 @@ import os
 import sys
 import json
 import time
-import config
 import asyncio
 import logging
 import pathlib
 import requests
-from city_class import InputCity
+import CityUtil.config as config
+from CityUtil.city_class import *
 
 log = logging.getLogger('__main__')
 
@@ -44,10 +44,11 @@ class City_HTTP():
         # Check if r is a new json
         if not self.equal_dicts(curr_json, self.prev_json, {'meta'}):
             # print (curr_text)
-            asyncio.set_event_loop(asyncio.new_event_loop())
-            loop = asyncio.get_event_loop()
-            loop.run_until_complete(self.write_dict(curr_text))
-            loop.close()
+            if config.SAVE_TABLES:
+                asyncio.set_event_loop(asyncio.new_event_loop())
+                loop = asyncio.get_event_loop()
+                loop.run_until_complete(self.write_dict(curr_text))
+                loop.close()
             # self.write_dict(curr_text)
             self.prev_text = curr_text
             self.prev_json = curr_json
